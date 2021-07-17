@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Portal agenta</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+    <h1>Portal agenta</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+    <a href="application">Złóż wniosek</a>
 </body>
 </html>
