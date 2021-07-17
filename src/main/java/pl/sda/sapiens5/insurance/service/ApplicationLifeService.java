@@ -3,13 +3,14 @@ package pl.sda.sapiens5.insurance.service;
 import pl.sda.sapiens5.insurance.model.InsuranceLifeContractApplication;
 import pl.sda.sapiens5.insurance.repository.ApplicationRepository;
 
-import javax.ejb.EJB;
+import javax.ejb.Singleton;
 import javax.inject.Inject;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+@Singleton
 public class ApplicationLifeService implements ApplicationService{
 
     private final ApplicationRepository applicationRepository;
